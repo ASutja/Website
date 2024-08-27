@@ -2,22 +2,22 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  mode: 'development', // или 'production'
-  entry: './js/script.js', // Ваш входной JavaScript файл
+  mode: 'development', 
+  entry: './js/script.js', 
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'), // Путь для выходных файлов
+    path: path.resolve(__dirname, 'dist'), 
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html', // Путь к вашему index.html в корне проекта
+      template: './index.html', 
     }),
   ],
   devServer: {
     static: './',
     compress: true,
     port: 9001,
-    open: true, // Открывает браузер автоматически
+    open: true, 
   }
 }
 
