@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "sass": "^1.77.8",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.8.2",
+    "stylelint-config-standard": "^36.0.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "siteSettings": {
+    "siteName": "The Sea of Wine",
+    "description": "TestTask",
+    "author": "Anna Sutyagina"
+  },
+  "contact": {
+    "email": "annasutyagina2023@gmail.com"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+}
