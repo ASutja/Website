@@ -17,4 +17,4 @@ TestTask by Anna Sutyagina - Black sea Wine route.
 4. Запустите проект:
   npm start
 
-5. Откройте http://localhost:9000 в браузере для просмотра проекта.
+5. Откройте http://localhost:9001 в браузере для просмотра проекта.
