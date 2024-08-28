@@ -9,7 +9,7 @@ TestTask by Anna Sutyagina - Black sea Wine route.
    git clone https://github.com/ASutja/TestTask.git
    
 2. Перейдите в папку проекта:
-  cd TastTask
+  cd TestTask
 
 3. Установите зависимости:
   npm install
